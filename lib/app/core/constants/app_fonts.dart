@@ -1,0 +1,14 @@
+import 'package:flutter/cupertino.dart';
+
+import 'app_colors.dart';
+
+ abstract class AppFonts {
+
+  // static const titiletext = "Cairo";
+ static  const TitleStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold, fontFamily: 'Cairo',);
+
+static  const titilebody = TextStyle(fontSize: 20, fontWeight: FontWeight.bold, fontFamily: 'Tajawal' ,);
+
+
+
+}
