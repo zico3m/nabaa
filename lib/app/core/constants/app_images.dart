@@ -4,6 +4,7 @@ class AppImages {
   static  const  readingNews = "assets/images/People reading news on phone.json";
   static  const  LisenToNews = "assets/images/Social Music Loading Animation.json";
   static  const  smartphone = "assets/images/Appointment booking with smartphone.json";
+  static  const  login = "assets/images/Login.json";
 
 
 }

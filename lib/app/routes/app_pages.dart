@@ -1,5 +1,6 @@
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
+import '../views/LogIn/register_view.dart';
 import '../views/home/homeview.dart';
 import '../views/onboarding/onboarding_view.dart';
 import '../views/splash/splash_view.dart';
@@ -22,5 +23,10 @@ class AppPages {
       name: AppRoutes.HOME,
       page: () => Homeview(),
     ),
+    GetPage(
+      name: AppRoutes.LOGIN,
+      page: () => RegisterView(),
+    ),
+
   ];
 }

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
+import 'package:nabaa/app/core/constants/app_fonts.dart';
 
 import '../../controllers/splash/Splash_controller.dart';
 import '../../core/constants/app_images.dart';
@@ -25,7 +27,15 @@ class SplashView extends StatelessWidget{
 
         children: [
 
-          SvgPicture.asset(AppImages.splashicon,width: 150,height: 150,),
+          SizedBox(
+            height: 15,
+          ),
+          Lottie.asset(
+            AppImages.readingNews,
+            fit: BoxFit.contain
+          ),
+          Text("welcomt to our wuold", style: AppFonts.TitleStyle,),
+
           ],
         ),
       ),

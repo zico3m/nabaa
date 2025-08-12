@@ -19,7 +19,7 @@ class CustomContainerButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: 50,
+        height: 60,
         alignment: Alignment.center,
         decoration: BoxDecoration(
           color: color,
@@ -36,7 +36,7 @@ class CustomContainerButton extends StatelessWidget {
           text,
           style: TextStyle(
             color: textColor,
-            fontSize: 30,
+            fontSize: 20,
             fontWeight: FontWeight.bold,
             fontFamily: "Cairo"
           ),
