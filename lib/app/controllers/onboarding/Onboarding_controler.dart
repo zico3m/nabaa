@@ -19,7 +19,7 @@ class OnboardingControler extends GetxController {
       );
 
     }else{
-      Get.offAllNamed(AppRoutes.HOME);
+      Get.offAllNamed(AppRoutes.LOGIN);
 
 
     }
